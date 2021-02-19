@@ -1,0 +1,453 @@
+body{  
+      background-color: #ADD8E6;    
+ }
+hr{
+	height: 20px;
+	background-color: black;
+}
+b {
+	color: black;
+	background-color: none;
+	font-size: 120%;
+ }
+h1{
+	color: blue;
+	font-variant: small-caps;
+    text-align: center;
+    text-shadow: 5px 3px 2px gray;
+ }
+.first {
+    color: white;
+    background-color: gray;
+    font-size:120%;
+    text-align: right;
+ }
+.second {
+    color: black;
+    background-color: pink;
+    font-size:120%;
+    text-align:center;
+ }
+.fuente {
+   font-style:italic;
+   font-size:50px;
+   text-indent: 40px;
+ }
+.tercero{
+   font-weight:bolder;
+   font-size: 35px;
+   text-align: left;
+ }
+.pequeño{ font-variant: small-caps; }
+
+.arriba{ vertical-align: top; }
+
+.medio{ vertical-align: middle; }
+
+.abajo{ vertical-align: bottom; }
+
+.normal{ text-decoration: blink; }
+
+.hereda{ text-decoration: inherit; }
+
+.sobre{ text-decoration: overline; }
+
+.debajo{ text-decoration: underline; }
+
+.atravez{ text-decoration: line-through; }
+
+.centro { text-align: center; }
+
+.perfecto{
+   border-top-style: outset;
+   border-bottom-style: outset;
+   border-left-style: double;
+   border-right-style: double;
+   text-align:center; 
+   table-layout: auto;
+   border-width: 5px;
+   
+ }
+
+.puntos{ border-style: dotted; 
+	     text-align:right; 
+	     border-color: pink; 
+	     background-color: white; 
+ }
+
+.lineas{ border-style: dashed; 
+	     text-align:left; 
+	     border-color: blue; 
+         background-color: white; 
+ }
+
+.doble{ border-style: double; 
+	    text-align:center; 
+	    border-color: orange; 
+	    background-color: white;
+ }
+
+.ranurado{ border-style: groove; 
+	       text-align:right; 
+	       border-color: purple; 
+	       background-color: white; 
+ }
+
+.estriado{ border-style: ridge; 
+	       text-align:left; 
+	       border-color: brown; 
+	       background-color: white; 
+ }
+
+.insertado{ border-style: inset; 
+	        text-align:center; 
+	        border-color: green; 
+	        background-color: white; 
+ }
+
+.tresde{ border-style: outset; 
+	     text-align:right; 
+	     border-color: red; 
+	     background-color: white;
+ }
+
+.oculto{ border-style: hidden; 
+	     text-align:left;
+	     border-color: yellow; 
+	     background-color: white; 
+ }
+
+.division{ border: 10px outset green; 
+	       width: 20%; 
+	       height: 20%; 
+	       background-image: url("tela.jpg");
+	       background-repeat: no-repeat;
+	       -webkit-border-radius:  0 0 24px 24px;
+	       perspective: 50px;
+ }
+.tesla { background-image: url("logo.jpg") ; 
+         border-width: 10px ;
+         background-size: 186px 200px;
+ }
+
+.lista{ list-style-image: url("luna.jpg"); 
+        list-style-position: inside; 
+        font-size: 120%;
+        font-weight: bold;
+        list-style-type: circle;
+ }
+.cuadro {
+	     border-collapse: separate;
+	     border-spacing: 20px 40px;
+ }
+
+.caption{
+	      caption-side: top;
+ }
+.linea{ display: inline; }
+
+.logo{
+       position: fixed;
+       top: 30px;
+       right: 110px;
+       opacity: 0.5;
+ }
+.diseños{
+	      width: 150px;
+	      height: 150px;
+	      float: right;
+	      background-color: black;
+	      color: white;
+	      overflow: auto;
+}
+.blue { 
+    background-color: #8EC4D0;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+}
+.red {
+    background-color: #FF4D4D;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: #FFF;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.orange { 
+	z-index: 5;
+	position: relative;
+    background-color: orange;
+    margin-bottom: 15px;
+    width: 120px;
+    height: 120px;
+    color: black;
+}
+.pink {
+	z-index: 2;
+    background-color: pink;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    color: black;
+    margin-top: -50px;
+    margin-left: 50px;
+}
+.circular{
+	       -webkit-border-radius: 24px;
+	       padding: 25px;
+	       width: 150px;
+	       border: 5px solid orange;
+}
+.creacion{
+	       width: 200px;
+	       height: 200px;
+	       border-radius: 100px;
+	       color: black;
+	       background-color: green;
+	       word-wrap: break-word;
+
+}
+.shadow{
+         width: 300px;
+         height: 150px;
+         box-shadow: 10px 10px gray, inset 10px 10px  10px gray;
+         background-color: pink;
+}
+.batman{
+         width: 300px;
+         height: 150px;
+         box-shadow: -10px -10px gray, inset -10px -10px  10px gray;
+         background-color: pink;
+}
+.dentro {
+         width: 300px;
+         height: 150px;
+         box-shadow: inset 10px 10px  10px gray, 10px 10px gray;
+         background-color: pink;
+         transform: translate3d(20px, 4px, 10px);
+}
+.double{
+	      text-shadow: 10px 6px 4px green,
+	      5px 3px 2px pink;
+}
+.parent li:last-child {
+    color: green;
+    text-decoration: underline;   
+}
+.parent li:first-child {
+	color: orange;
+	text-decoration: underline;
+}
+.origen{
+	position: relative;
+    height: 100px;
+    width: 100px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    perspective: 50px;
+}
+.ajuste {
+	word-wrap: break-word;
+	padding: 30px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotate(15deg);
+    transform-origin: 25% 75%;
+    -webkit-transform: rotate(15deg);
+    -webkit-transform-origin: 25% 75%;
+}
+.degradado{
+          height: 110px;
+	      width: 300px;
+	      float: left;
+	      margin: 4px;
+	      color: #FFF;
+	      background: -webkit-linear-gradient(right, blue,black,yellow);
+}
+.secuencia{
+          height: 110px;
+	      width: 300px;
+	      float: left;
+	      margin: 4px;
+	      color: black;
+	      background: -webkit-repeating-linear-gradient( 45deg ,brown 20%,red 20% , pink 60%);
+	      word-wrap: break-word;
+}
+.idea{
+	 background: -webkit-radial-gradient(center, circle , blue, white);
+	 height: 110px;
+	 width: 300px;
+	 float: left;
+	 margin: 4px;
+     color: black;
+}
+.tamaño{
+	 background-image: url("stars.jpg");
+	 background-size: contain;
+	 border: 10px outset green; 
+	 width: 55%; 
+	 height: 15%;
+	 transform: rotate(10deg);
+}
+.final{
+    border: 20px ridge purple;
+	padding: 20px ; 
+	background: brown;
+	background-clip: padding-box;
+	transform: rotate(-5deg);
+}
+.superman{
+	border: 20px ridge green;
+	padding: 20px ; 
+	background: pink;
+	background-clip:content-box;
+}
+.cambio{
+	width: 50px;
+	height: 50px;
+	background: #32CD32;
+	transition: width 3s;
+	-webkit-transition: width 3s;
+}
+.cambio:hover{
+	width: 250px;
+	cursor: pointer;
+}
+.velocidad{
+	width: 60px;
+	height: 50px;
+	background: blue;
+	transition: width 3s;
+	transition-timing-function: ease-out;
+	-webkit-transition: width 3s;
+	word-wrap: break-word;
+	color: white;
+}
+.velocidad:hover{
+	width: 550px;
+	cursor: pointer;
+}
+.animacion{
+	background-color: pink;
+	width: 200px;
+	height: 100px;
+	word-wrap: break-word;
+	padding: 30px;
+	transform: translate(120px, 60px);
+	-webkit-transform: translate(120px, 60px);
+}
+.rasgar{
+	background-color: brown;
+	color: white;
+	width: 200px;
+	height: 100px;
+	word-wrap: break-word;
+	transform: skew(30deg) translate(30px);
+}
+.aumento{
+	background-color: red;
+	color: white;
+	padding: 20px;
+	width: 400px;
+	height: 200px;
+	transform: scale(0.7,0.7) rotate(-5deg);
+	word-wrap: break-word;	
+}
+.creatividad{
+	width: 300px;
+	height: 50px;
+	background-color: #33fff9;
+	word-wrap: break-word;
+	color: black;
+	animation-name: primero;
+	animation-duration: 15s;
+	animation-timing-function: ease;
+	animation-delay: 4s;
+	animation-iteration-count: 9;
+	animation-direction: reverse;
+}
+@keyframes primero{
+	0% {background-color: green; transform: translate(10px) rotate(-5deg); box-shadow: -20px -20px 10px blue, 20px 20px 10px blue;}
+	10% {background-color: red; transform: translate(10px); box-shadow: -20px -20px 10px brown, 20px 20px 10px brown;}
+	20% {background-color: pink; transform: skew(30deg,0deg); box-shadow: -20px -20px 10px beige, 20px 20px 10px beige;}
+	30% {background-color: blue; transform: translate(500px) skew(-30deg); box-shadow: -20px -20px 10px white, 20px 20px 10px white;}
+	40% {background-color: brown; transform: translate(500px); box-shadow: -20px -20px 10px gray, 20px 20px 10px gray;}
+	50% {background:-webkit-radial-gradient(center, circle , blue, white); box-shadow: -20px -20px 10px green, 20px 20px 10px green;}
+	60% {background:-webkit-radial-gradient(center, circle , blue, white); box-shadow: -20px -20px 10px pink, 20px 20px 10px pink; }
+	70% {background-color: yellow; box-shadow: -20px -20px 10px red, 20px 20px 10px red; }
+	80% {background-color: gray; box-shadow: -20px -20px 10px yellow, 20px 20px 10px yellow;}
+	90% {background-color: beige; box-shadow: -20px -20px 10px purple, 20px 20px 10px purple;}
+	100% {background-color: white; box-shadow: -20px -20px 10px orange, 20px 20px 10px orange;}
+}
+.X {
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+    transform: rotateX(150deg);
+    -webkit-transform: rotateX(150deg);
+}
+.Y {
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+    transform: rotateY(150deg);
+    -webkit-transform: rotateY(150deg);
+}
+.Z {
+    width:250px;
+    height:100px;
+    color:white;
+    background-color:green;
+    transform: rotateZ(150deg);
+    -webkit-transform: rotateZ(150deg);
+}
+div.empty-div {
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    perspective: 50px;
+    -webkit-perspective: 100px;
+}
+div.green-div {
+    padding: 60px;
+    position: absolute;
+    background-color: #8bc34a;
+    border: 1px solid white;
+    transform: rotateX(45deg);
+    -webkit-transform: rotateX(45deg);
+}
+.gotye{
+    filter: drop-shadow(5px 7px 3px red);
+}
+.escala{
+	border-color: white;
+	border-style: double;
+	border-width: 15px;
+	width: 1200px;
+	height: 300px;
+}
+.weekend{ filter: grayscale(100%);}
+
+.feel{filter: sepia(100%);}
+
+.satu{ filter: saturate(40%);}
+
+.ovalo{ filter: hue-rotate(120deg);}
+
+.contrario{ filter: invert(40%);}
+
+.brillo{ filter: brightness(40%); }
+
+.contraste{ filter: contrast(150%); }
+
+.desenfoque{ filter: blur(5px); }
