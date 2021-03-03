@@ -1,0 +1,122 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{  
+      background-color: #ADD8E6;    
+ }
+
+.inicio{
+	background: black;
+	background-clip:content-box;
+	color: black;
+	width: 100%;
+	height: 70px;
+}
+.product{
+	text-align: center;
+	vertical-align: center;
+	border-width: 3px;
+	border-style: double;
+	border-radius: 15px 15px 15px 15px;
+	width: 30px;
+	font-family: cursive;
+	text-decoration: none;
+	color: white;
+	border-color: black;
+}
+.enlace{
+	text-decoration: none;
+	color: white;
+}
+.conocen{
+	text-align: center;
+	vertical-align: center;
+	border-width: 3px;
+	border-style: double;
+	border-radius: 15px 15px 15px 15px;
+	width: 30px;
+	font-family: cursive;
+    color: white;
+    border-color: black;
+}
+.estil{
+	text-align: center;
+	vertical-align: center;
+	border-width: 3px;
+	border-style: double;
+	border-radius: 15px 15px 15px 15px;
+	width: 100px;
+	font-family: cursive;
+	color: white;
+    border-color: black;
+}
+
+ul, li {
+    padding: 0;
+    margin: 0;
+    list-style: none inside;
+}
+
+ul.slider {
+    position:relative;/*Necesitamos que el ul sea relativo*/
+}
+
+ul.slider li {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: absolute; /*Posicionamos en absoluto los <li>*/
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding:0;
+    border:2px solid hidden;
+    background:#fff;
+}
+
+ul.slider li:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+
+ul.slider li:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
+nav {
+    position:relative;
+    top:200px;
+    left:0px;
+}
+.menu{
+	background-color: white;
+	text-align:center;
+	height: 30px;
+	text-decoration: hidden;
+}
+.orden{
+	display: inline;
+	color: white;
+	width: 40px;
+    height: 30px;
+    text-decoration: hidden;
+}
+.numero{
+	background-color: gray;
+	border-radius: 50px;
+	width: 40px;
+	height: 40px;
+	text-decoration: hidden;
+	display: inline;
+}
+.segundaP{
+	width: 100%;
+	height: 600px;
+	background-color: gray;	
+}
+.terceraP{
+	background-color: brown;
+	height: 300px;
+}
